@@ -60,22 +60,7 @@
 
 
 
-@media (min-width: 992px) {
-  .masthead {
-      padding-top: calc(6rem + 104px);
-      padding-bottom: 6rem;
-  }
 
-  .masthead .masthead-heading {
-      font-size: 4rem;
-      line-height: 3.5rem;
-  }
-
-  .masthead .masthead-subheading {
-      font-size: 1.5rem;
-  }
-
-}
 
 *,
 *::before,
@@ -12050,4 +12035,21 @@ fieldset:disabled .btn {
 
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+  }
+
+  .masthead .masthead-head {
+      font-size: 4rem;
+      line-height: 3.5rem;
+  }
+
+  .masthead .masthead-sub {
+      font-size: 1.5rem;
+  }
+
 }
