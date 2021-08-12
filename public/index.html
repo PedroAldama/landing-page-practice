@@ -27,11 +27,11 @@
             </button>
             <div class="collapse navbar-collapse" id="responsiveCollapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a href="#portafolio" class="nav-link
-                         py-3 px-6 px-lg-3 rounded">Portafolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a href="" class="nav-link
+                    <li class="nav-item mx-0 mx-lg-1"><a href="#portfolio" class="nav-link
+                         py-3 px-6 px-lg-3 rounded">portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a href="#about" class="nav-link
                          py-3 px-6 px-lg-3 rounded">about</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a href="" class="nav-link
+                    <li class="nav-item mx-0 mx-lg-1"><a href="#contact" class="nav-link
                          py-3 px-6 px-lg-3 rounded">contact</a></li>
 
             </div>
@@ -55,7 +55,7 @@
     <!--Portfolio Section-->
 
 
-    <section id="portfolio">
+    <section id="portfolio" class="m-5">
         <div class="container pt-5">
             <h2 class="page-section-heading text-center text-uppercase text-secondary">portfolio</h2>
             <div class="divider-custom divider-dark mb-0">
@@ -65,41 +65,42 @@
             </div>
 
             <div class="row justify-content-center align-items-center">
-                <div class="portafolio col-md-6 col-lg-4 mb-1">
+                <div class="portfolio col-md-6 col-lg-4 mb-2">
                     ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal1">
-                        <img class="img-fluid" src="assets/cabin.png" alt="..." />
+                        
+                        <img class="img-fluid rounded" src="assets/cabin.png" alt="Cabis" />
                     </div>
                 </div>
-                <div class="portafolio col-md-6 col-lg-4 mb-1">
-                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal1">
+                <div class="portfolio col-md-6 col-lg-4 mb-1">
+                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal2">
+                        <img class="img-fluid rounded" src="assets/cake.png" alt="Cake " />
+                    </div>
+                        
+                    
+                </div>
+                <div class="portfolio col-md-6 col-lg-4 mb-1">
+                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal3">
 
-                        <img class="img-fluid" src="assets/cake.png" alt="..." />
+                        <img class="img-fluid rounded" src="assets/circus.png" alt="Circus" />
                     </div>
                 </div>
-                <div class="portafolio col-md-6 col-lg-4 mb-1">
-                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal1">
-
-                        <img class="img-fluid" src="assets/circus.png" alt="..." />
+                <div class="portfolio col-md-6 col-lg-4 mb-1">
+                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal4">
+                        <img class="img-fluid rounded" src="assets/game.png" alt="Game Controller" />
                     </div>
                 </div>
-                <div class="portafolio col-md-6 col-lg-4 mb-1">
-                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal1">
-                        <img class="img-fluid" src="assets/game.png" alt="..." />
-                    </div>
-                </div>
-                <div class="portafolio col-md-6 col-lg-4 mb-1">
-                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal1">
+                <div class="portfolio col-md-6 col-lg-4 mb-1">
+                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal5">
                       
-                        <img class="img-fluid" src="assets/safe.png" alt="..." />
+                        <img class="img-fluid rounded" src="assets/safe.png" alt="Safe" />
                     </div>
                 </div>
-                <div class="portafolio col-md-6 col-lg-4 mb-1">
-                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModal1">
+                <div class="portfolio col-md-6 col-lg-4 mb-1">
+                    ​ <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portModa6">
                       
-                        <img class="img-fluid" src="assets/submarine.png" alt="..." />
+                        <img class="img-fluid rounded" src="assets/submarine.png" alt="Submarine" />
                     </div>
                 </div>
-               
 
             </div>
 
@@ -178,7 +179,169 @@
 <div class="copyright py-4 text-center text-white">
     <div class="container"><small>Copyright © Your Website 2021</small></div>
 </div>
-
+<!--modals-->
+<div class="portfolio-modal modal fade" id="portModal1" tabindex="-1" aria-labelledby="portModal1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-gray text-uppercase my-4">LOG CABIN</h2>
+                            <div class="divider-custom divider-dark m-0">
+                                <div class="divider-custom-line "></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5 mt-3" src="assets/cabin.png" alt="Cabin" />
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portModal2" tabindex="-1" aria-labelledby="portModal2" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-gray text-uppercase my-4">TASTY CAKE</h2>
+                            <div class="divider-custom divider-dark m-0">
+                                <div class="divider-custom-line "></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5 mt-3" src="assets/cake.png" alt="TASTY CAKE"/>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portModal3" tabindex="-1" aria-labelledby="portModal3" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-gray text-uppercase my-4">CIRCUS TENT</h2>
+                            <div class="divider-custom divider-dark m-0">
+                                <div class="divider-custom-line "></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5 mt-3" src="assets/circus.png" alt="CIRCUS TENT" />
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portModal4" tabindex="-1" aria-labelledby="portModal4" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-gray text-uppercase my-4">CONTROLLER</h2>
+                            <div class="divider-custom divider-dark m-0">
+                                <div class="divider-custom-line "></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5 mt-3" src="assets/game.png" alt="CONTROLLER" />
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portModal5" tabindex="-1" aria-labelledby="portModal5" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-gray text-uppercase my-4">LOCKED SAFE</h2>
+                            <div class="divider-custom divider-dark m-0">
+                                <div class="divider-custom-line "></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5 mt-3" src="assets/safe.png" alt="LOCKED SAFE" />
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portModal6" tabindex="-1" aria-labelledby="portModal6" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-gray text-uppercase my-4">submarine</h2>
+                            <div class="divider-custom divider-dark m-0">
+                                <div class="divider-custom-line "></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5 mt-3" src="assets/submarine.png" alt="Submarine" />
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
