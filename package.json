@@ -1,0 +1,30 @@
+{
+  "name": "uv-landing-page",
+  "version": "0.0.0",
+  "description": "The purpose of this practice is to use the basic knowledge got during the previous modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAldama/landing-page-practice.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroAldama/landing-page-practice/issues"
+  },
+  "homepage": "https://github.com/PedroAldama/landing-page-practice#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "node-sass-middleware": "^0.11.0",
+    "pug": "^3.0.2"
+  }
+}
