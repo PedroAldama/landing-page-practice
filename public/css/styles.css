@@ -12062,13 +12062,18 @@ fieldset:disabled .btn {
   font-size: 3rem;
   font-family: "Montserrat";
 }
-.portfolio .portfolio-item {
+
+
+.portfolio-item {
   cursor: pointer;
   max-width: 25rem;
+  background-color: #1abc9c;
 }
+
 .portfolio-item .img-fluid:hover {
   opacity: .3;
   cursor: pointer;
+
 }
 .portfolio-modal-title{
   font-size: 3rem;
