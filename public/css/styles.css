@@ -3164,7 +3164,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: ##1ABC9C;
+  color: #1ABC9C;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3209,8 +3209,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: ##1ABC9C;
-  border-color: ##1ABC9C;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
 }
 
 .btn-primary:hover {
@@ -11973,6 +11973,9 @@ fieldset:disabled .btn {
   font-weight: 700;
 
 }
+.nav-link:hover{
+  color: #1abc9c;
+}
 
 .masthead .masthead-sub {
   font-size: 1.15rem;
@@ -12068,12 +12071,8 @@ fieldset:disabled .btn {
   cursor: pointer;
   max-width: 25rem;
   background-color: #1abc9c;
-}
-
-.portfolio-item .img-fluid:hover {
-  opacity: .3;
-  cursor: pointer;
-
+  position: relative;
+  overflow: hidden;
 }
 .portfolio-modal-title{
   font-size: 3rem;
@@ -12081,6 +12080,19 @@ fieldset:disabled .btn {
   font-weight: 700;
   font-family: "Montserrat";
 
+}
+.portfolio-item-caption {
+  position: absolute;
+  transition: 0.5s;
+  opacity: 0;
+
+}
+.portfolio-item-caption:hover {
+  opacity: .7;
+  background-color: #15967d;
+}
+.portfolio-hover {
+  font-size: 2rem;
 }
 
 a {
