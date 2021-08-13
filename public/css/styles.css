@@ -11994,6 +11994,7 @@ fieldset:disabled .btn {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: "Montserrat",  sans-serif;
+  transition: 0.5s;
 }
 
 #botonMenu {
